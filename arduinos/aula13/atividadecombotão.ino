@@ -6,10 +6,10 @@
 
 
 void setup() {
-  Serial.begin(9600);          //define a velocidade da comunicação
-  pinMode (pin_led1, OUTPUT);  //definindo led1 saida
-  pinMode (pin_led2, OUTPUT);  //definindo led2 saida
-  pinMode (pin_led3, OUTPUT);  //definindo led3 saida
+  Serial.begin(9600);         
+  pinMode (pin_led1, OUTPUT); 
+  pinMode (pin_led2, OUTPUT); 
+  pinMode (pin_led3, OUTPUT); 
   pinMode (pin_botao1, INPUT);
   pinMode (pin_botao2, INPUT);
 }
